@@ -1,0 +1,58 @@
+[
+  {
+    "id": "beer",
+    "name": "맥주",
+    "image": "/food/beer-mug.svg",
+    "description": "하루의 피로, 한 잔으로 씻어내세요",
+    "requires": ["water"],
+    "grade": 0
+  },
+  {
+    "id": "birthday-cake",
+    "name": "생일 케이크",
+    "image": "/food/birthday-cake.svg",
+    "description": "달콤함이 퍼지는 행복, 생일 축하합니다!",
+    "requires": ["bread", "milk", "carrot"],
+    "grade": 2
+  },
+  {
+    "id": "bubble-tea",
+    "name": "버블티",
+    "image": "/food/bubble-tea.svg",
+    "description": "달콤한 흑당, 향긋한 우유, 쫄깃한 타피오카의 퍼포먼스!",
+    "requires": ["milk", "ice"],
+    "grade": 0
+  },
+  {
+    "id": "burrito",
+    "name": "브리또",
+    "image": "/food/burrito.svg",
+    "description": "촉촉 바삭! 한입에 즐기는 풍미 폭발!",
+    "requires": ["bread", "carrot"],
+    "grade": 1
+  },
+  {
+    "id": "cookie",
+    "name": "쿠키",
+    "image": "/food/cookie.svg",
+    "description": "따뜻한 차와 함께, 행복한 쿠키 한 입",
+    "requires": ["bread", "milk"],
+    "grade": 0
+  },
+  {
+    "id": "croissant",
+    "name": "크루아상",
+    "image": "/food/croissant.svg",
+    "description": "바삭한 첫 만남, 부드러운 행복의 여운",
+    "requires": ["bread", "milk"],
+    "grade": 0
+  },
+  {
+    "id": "ice-cream",
+    "name": "아이스크림",
+    "image": "/food/ice-cream.svg",
+    "description": "부드러운 달콤함, 입안 가득 행복! ",
+    "requires": ["ice", "milk"],
+    "grade": 0
+  }
+]
