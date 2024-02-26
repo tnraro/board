@@ -1,58 +1,428 @@
 [
   {
-    "id": "beer",
-    "name": "맥주",
-    "image": "/food/beer-mug.svg",
-    "description": "하루의 피로, 한 잔으로 씻어내세요",
-    "ingredients": ["water"],
-    "grade": 0
+    "id": "croissant",
+    "name": "크루아상",
+    "description": "바삭하고 부드러운 식감, 크루아상의 완벽한 조화!",
+    "grade": 1,
+    "image": "/food/croissant.svg",
+    "ingredients": [
+      "bread",
+      "milk"
+    ]
   },
   {
-    "id": "birthday-cake",
-    "name": "생일 케이크",
-    "image": "/food/birthday-cake.svg",
-    "description": "달콤함이 퍼지는 행복, 생일 축하합니다!",
-    "ingredients": ["bread", "milk", "carrot"],
-    "grade": 2
+    "id": "bagel",
+    "name": "베이글",
+    "description": "쫄깃한 식감과 풍부한 맛, 베이글을 즐겨보세요!",
+    "grade": 0,
+    "image": "/food/bagel.svg",
+    "ingredients": [
+      "bread"
+    ]
   },
   {
-    "id": "bubble-tea",
-    "name": "버블티",
-    "image": "/food/bubble-tea.svg",
-    "description": "달콤한 흑당, 향긋한 우유, 쫄깃한 타피오카의 퍼포먼스!",
-    "ingredients": ["milk", "ice"],
-    "grade": 0
+    "id": "baguette-bread",
+    "name": "바게트",
+    "description": "바삭하고 쫄깃한 식감, 프랑스의 대표적인 빵",
+    "grade": 0,
+    "image": "/food/baguette-bread.svg",
+    "ingredients": [
+      "bread"
+    ]
+  },
+  {
+    "id": "pretzel",
+    "name": "프레첼",
+    "description": "소금 뿌려 바삭한 맛, 프레첼!",
+    "grade": 1,
+    "image": "/food/pretzel.svg",
+    "ingredients": [
+      "bread",
+      "water"
+    ]
+  },
+  {
+    "id": "pancakes",
+    "name": "팬케이크",
+    "description": "부드러운 식감, 달콤한 맛, 행복한 아침을 위한 팬케이크!",
+    "grade": 2,
+    "image": "/food/pancakes.svg",
+    "ingredients": [
+      "bread",
+      "milk",
+      "herb"
+    ]
+  },
+  {
+    "id": "waffle",
+    "name": "와플",
+    "description": "와플, 와플, 달콤한 아침의 시작",
+    "grade": 1,
+    "image": "/food/waffle.svg",
+    "ingredients": [
+      "bread",
+      "milk"
+    ]
+  },
+  {
+    "id": "poultry-leg",
+    "name": "닭다리",
+    "description": "촉촉하고 부드러운 닭다리 요리",
+    "grade": 1,
+    "image": "/food/poultry-leg.svg",
+    "ingredients": ["beans", "carrot"]
+  },
+  {
+    "id": "hot-dog",
+    "name": "핫도그",
+    "description": "육즙 가득한 소시지와 부드러운 빵의 조화, 핫도그의 진수!",
+    "grade": 2,
+    "image": "/food/hot-dog.svg",
+    "ingredients": [
+      "bread",
+      "beans",
+      "herb"
+    ]
+  },
+  {
+    "id": "hamburger",
+    "name": "햄버거",
+    "description": "육즙 넘치는 패티와 신선한 야채가 어우러진 클래식 햄버거",
+    "grade": 2,
+    "image": "/food/hamburger.svg",
+    "ingredients": [
+      "bread",
+      "beans",
+      "herb"
+    ]
+  },
+  {
+    "id": "pizza",
+    "name": "피자",
+    "description": "이탈리아의 향, 뜨거운 피자를 즐겨보세요!",
+    "grade": 2,
+    "image": "/food/pizza.svg",
+    "ingredients": [
+      "bread",
+      "herb",
+      "milk"
+    ]
+  },
+  {
+    "id": "flatbread",
+    "name": "플랫브레드",
+    "description": "바삭한 식감과 풍부한 맛, 플랫브레드의 매력!",
+    "grade": 0,
+    "image": "/food/flatbread.svg",
+    "ingredients": [
+      "bread"
+    ]
+  },
+  {
+    "id": "sandwich",
+    "name": "샌드위치",
+    "description": "부드러운 빵에 든 풍성한 재료, 간편하고 맛있는 샌드위치!",
+    "grade": 2,
+    "image": "/food/sandwich.svg",
+    "ingredients": [
+      "bread",
+      "beans",
+      "herb"
+    ]
+  },
+  {
+    "id": "taco",
+    "name": "타코",
+    "description": "바삭함과 풍미의 만남, 타코 파티!",
+    "grade": 0,
+    "image": "/food/taco.svg",
+    "ingredients": [
+      "beans"
+    ]
   },
   {
     "id": "burrito",
-    "name": "브리또",
+    "name": "부리또",
+    "description": "불타는 맛, 매운 맛, 부리또!",
+    "grade": 2,
     "image": "/food/burrito.svg",
-    "description": "촉촉 바삭! 한입에 즐기는 풍미 폭발!",
-    "ingredients": ["bread", "carrot"],
-    "grade": 1
+    "ingredients": [
+      "beans",
+      "rice",
+      "herb"
+    ]
   },
   {
-    "id": "cookie",
-    "name": "쿠키",
-    "image": "/food/cookie.svg",
-    "description": "따뜻한 차와 함께, 행복한 쿠키 한 입",
-    "ingredients": ["bread", "milk"],
-    "grade": 0
+    "id": "tamale",
+    "name": "타말레",
+    "description": "옥수수 맛 가득! 바로 타말레!",
+    "grade": 2,
+    "image": "/food/tamale.svg",
+    "ingredients": [
+      "beans",
+      "rice",
+      "herb"
+    ]
   },
   {
-    "id": "croissant",
-    "name": "크루아상",
-    "image": "/food/croissant.svg",
-    "description": "바삭한 첫 만남, 부드러운 행복의 여운",
-    "ingredients": ["bread", "milk"],
-    "grade": 0
+    "id": "green-salad",
+    "name": "야채샐러드",
+    "description": "건강과 맛을 한 번에, 야채샐러드!",
+    "grade": 2,
+    "image": "/food/green-salad.svg",
+    "ingredients": [
+      "carrot",
+      "herb",
+      "rice"
+    ]
+  },
+  {
+    "id": "canned-food",
+    "name": "통조림",
+    "description": "바다의 풍미가 살아있는 통조림, 오늘의 식탁을 풍성하게!",
+    "grade": 2,
+    "image": "/food/canned-food.svg",
+    "ingredients": [
+      "beans",
+      "carrot",
+      "rice"
+    ]
+  },
+  {
+    "id": "curry-rice",
+    "name": "카레라이스",
+    "description": "매콤달콤한 카레향이 입안 가득! 카레라이스!",
+    "grade": 2,
+    "image": "/food/curry-rice.svg",
+    "ingredients": [
+      "rice",
+      "carrot",
+      "herb"
+    ]
+  },
+  {
+    "id": "sushi",
+    "name": "초밥",
+    "description": "일본의 전통 음식, 초밥으로 행복한 식사를!",
+    "grade": 0,
+    "image": "/food/sushi.svg",
+    "ingredients": [
+      "rice"
+    ]
+  },
+  {
+    "id": "bento-box",
+    "name": "도시락",
+    "description": "맛있는 도시락으로 활력 찬 하루를 보내세요!",
+    "grade": 2,
+    "image": "/food/bento-box.svg",
+    "ingredients": [
+      "rice",
+      "beans",
+      "herb"
+    ]
+  },
+  {
+    "id": "rice-ball",
+    "name": "삼각 김밥",
+    "description": "세상에서 가장 쉬운 도시락, 삼각 김밥!",
+    "grade": 2,
+    "image": "/food/rice-ball.svg",
+    "ingredients": [
+      "rice",
+      "herb",
+      "carrot"
+    ]
+  },
+  {
+    "id": "oden",
+    "name": "오뎅",
+    "description": "추운 겨울날 뜨거운 국물에 넣고 먹으면 더욱 맛있는 오뎅!",
+    "grade": 0,
+    "image": "/food/oden.svg",
+    "ingredients": [
+      "rice",
+      "herb"
+    ]
+  },
+  {
+    "id": "shaved-ice",
+    "name": "샤베트 아이스크림",
+    "description": "시원함이 입안 가득, 샤베트 아이스크림!",
+    "grade": 1,
+    "image": "/food/shaved-ice.svg",
+    "ingredients": [
+      "milk",
+      "ice"
+    ]
   },
   {
     "id": "ice-cream",
     "name": "아이스크림",
+    "description": "시원한 달콤함, 아이스크림!",
+    "grade": 0,
     "image": "/food/ice-cream.svg",
-    "description": "부드러운 달콤함, 입안 가득 행복! ",
-    "ingredients": ["ice", "milk"],
-    "grade": 0
+    "ingredients": [
+      "ice"
+    ]
+  },
+  {
+    "id": "soft-ice-cream",
+    "name": "소프트 아이스크림",
+    "description": "부드러움과 시원함의 만남, 소프트 아이스크림",
+    "grade": 1,
+    "image": "/food/soft-ice-cream.svg",
+    "ingredients": [
+      "milk",
+      "ice"
+    ]
+  },
+  {
+    "id": "pie",
+    "name": "파이",
+    "description": "은은한 단맛과 풍부한 향을 즐겨보세요!",
+    "grade": 1,
+    "image": "/food/pie.svg",
+    "ingredients": [
+      "bread",
+      "herb"
+    ]
+  },
+  {
+    "id": "cupcake",
+    "name": "컵케이크",
+    "description": "작은 행복, 컵케이크",
+    "grade": 1,
+    "image": "/food/cupcake.svg",
+    "ingredients": [
+      "bread",
+      "milk"
+    ]
+  },
+  {
+    "id": "birthday-cake",
+    "name": "생일 케이크",
+    "description": "달콤한 맛으로 생일을 축하해요!",
+    "grade": 2,
+    "image": "/food/birthday-cake.svg",
+    "ingredients": [
+      "bread",
+      "milk",
+      "carrot"
+    ]
+  },
+  {
+    "id": "lollipop",
+    "name": "롤리팝",
+    "description": "달콤한 맛으로 입안 가득 행복을 채워드립니다!",
+    "grade": 1,
+    "image": "/food/lollipop.svg",
+    "ingredients": [
+      "herb",
+      "rice"
+    ]
+  },
+  {
+    "id": "chocolate-bar",
+    "name": "초콜렛",
+    "description": "달콤함이 가득 찬 순간, 초콜릿과 함께",
+    "grade": 2,
+    "image": "/food/chocolate-bar.svg",
+    "ingredients": [
+      "beans",
+      "milk",
+      "herb"
+    ]
+  },
+  {
+    "id": "doughnut",
+    "name": "도넛",
+    "description": "달콤하고 부드러운 맛, 기분을 좋게 해주는 도넛!",
+    "grade": 2,
+    "image": "/food/doughnut.svg",
+    "ingredients": [
+      "bread",
+      "milk",
+      "herb"
+    ]
+  },
+  {
+    "id": "cookie",
+    "name": "쿠키",
+    "description": "바삭한 식감과 달콤한 향, 쿠키는 언제나 사랑받아요.",
+    "grade": 0,
+    "image": "/food/cookie.svg",
+    "ingredients": [
+      "bread"
+    ]
+  },
+  {
+    "id": "hot-beverage",
+    "name": "뜨거운 음료",
+    "description": "따뜻함이 가득한 한 잔의 행복",
+    "grade": 1,
+    "image": "/food/hot-beverage.svg",
+    "ingredients": [
+      "beans",
+      "milk"
+    ]
+  },
+  {
+    "id": "teacup-without-handle",
+    "name": "차",
+    "description": "차 한잔의 여유로 세상을 바라보세요.",
+    "grade": 1,
+    "image": "/food/teacup-without-handle.svg",
+    "ingredients": [
+      "water",
+      "herb"
+    ]
+  },
+  {
+    "id": "beverage-box",
+    "name": "음료 팩",
+    "description": "상큼함이 가득, 짜릿한 여름을 위한 음료 팩!",
+    "grade": 3,
+    "image": "/food/beverage-box.svg",
+    "ingredients": [
+      "beans",
+      "milk",
+      "herb",
+      "rice"
+    ]
+  },
+  {
+    "id": "cup-with-straw",
+    "name": "빨대와 컵",
+    "description": "시원함을 즐기는 간단한 행복",
+    "grade": 1,
+    "image": "/food/cup-with-straw.svg",
+    "ingredients": [
+      "water",
+      "ice"
+    ]
+  },
+  {
+    "id": "bubble-tea",
+    "name": "버블티",
+    "description": "쫄깃한 펄과 달콤한 우유의 만남!",
+    "grade": 2,
+    "image": "/food/bubble-tea.svg",
+    "ingredients": [
+      "milk",
+      "herb",
+      "beans"
+    ]
+  },
+  {
+    "id": "beer-mug",
+    "name": "맥주잔",
+    "description": "시원함을 한모금!",
+    "grade": 1,
+    "image": "/food/beer-mug.svg",
+    "ingredients": [
+      "herb",
+      "water"
+    ]
   }
 ]
