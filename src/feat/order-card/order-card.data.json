@@ -11,46 +11,13 @@
     ]
   },
   {
-    "id": "bagel",
-    "name": "베이글",
-    "description": "쫄깃한 식감과 풍부한 맛, 베이글을 즐겨보세요!",
-    "grade": 0,
-    "image": "/food/bagel.svg",
-    "ingredients": [
-      "bread"
-    ]
-  },
-  {
-    "id": "baguette-bread",
-    "name": "바게트",
-    "description": "바삭하고 쫄깃한 식감, 프랑스의 대표적인 빵",
-    "grade": 0,
-    "image": "/food/baguette-bread.svg",
-    "ingredients": [
-      "bread"
-    ]
-  },
-  {
     "id": "pretzel",
     "name": "프레첼",
     "description": "소금 뿌려 바삭한 맛, 프레첼!",
-    "grade": 1,
+    "grade": 0,
     "image": "/food/pretzel.svg",
     "ingredients": [
-      "bread",
-      "water"
-    ]
-  },
-  {
-    "id": "pancakes",
-    "name": "팬케이크",
-    "description": "부드러운 식감, 달콤한 맛, 행복한 아침을 위한 팬케이크!",
-    "grade": 2,
-    "image": "/food/pancakes.svg",
-    "ingredients": [
-      "bread",
-      "milk",
-      "herb"
+      "bread"
     ]
   },
   {
@@ -65,22 +32,13 @@
     ]
   },
   {
-    "id": "poultry-leg",
-    "name": "닭다리",
-    "description": "촉촉하고 부드러운 닭다리 요리",
-    "grade": 1,
-    "image": "/food/poultry-leg.svg",
-    "ingredients": ["beans", "carrot"]
-  },
-  {
     "id": "hot-dog",
     "name": "핫도그",
     "description": "육즙 가득한 소시지와 부드러운 빵의 조화, 핫도그의 진수!",
-    "grade": 2,
+    "grade": 1,
     "image": "/food/hot-dog.svg",
     "ingredients": [
       "bread",
-      "beans",
       "herb"
     ]
   },
@@ -88,11 +46,10 @@
     "id": "hamburger",
     "name": "햄버거",
     "description": "육즙 넘치는 패티와 신선한 야채가 어우러진 클래식 햄버거",
-    "grade": 2,
+    "grade": 1,
     "image": "/food/hamburger.svg",
     "ingredients": [
       "bread",
-      "beans",
       "herb"
     ]
   },
@@ -100,22 +57,11 @@
     "id": "pizza",
     "name": "피자",
     "description": "이탈리아의 향, 뜨거운 피자를 즐겨보세요!",
-    "grade": 2,
+    "grade": 1,
     "image": "/food/pizza.svg",
     "ingredients": [
       "bread",
-      "herb",
-      "milk"
-    ]
-  },
-  {
-    "id": "flatbread",
-    "name": "플랫브레드",
-    "description": "바삭한 식감과 풍부한 맛, 플랫브레드의 매력!",
-    "grade": 0,
-    "image": "/food/flatbread.svg",
-    "ingredients": [
-      "bread"
+      "herb"
     ]
   },
   {
@@ -134,9 +80,10 @@
     "id": "taco",
     "name": "타코",
     "description": "바삭함과 풍미의 만남, 타코 파티!",
-    "grade": 0,
+    "grade": 1,
     "image": "/food/taco.svg",
     "ingredients": [
+      "bread",
       "beans"
     ]
   },
@@ -165,27 +112,14 @@
     ]
   },
   {
-    "id": "green-salad",
+    "id": "salad",
     "name": "야채샐러드",
     "description": "건강과 맛을 한 번에, 야채샐러드!",
-    "grade": 2,
+    "grade": 1,
     "image": "/food/green-salad.svg",
     "ingredients": [
       "carrot",
-      "herb",
-      "rice"
-    ]
-  },
-  {
-    "id": "canned-food",
-    "name": "통조림",
-    "description": "바다의 풍미가 살아있는 통조림, 오늘의 식탁을 풍성하게!",
-    "grade": 2,
-    "image": "/food/canned-food.svg",
-    "ingredients": [
-      "beans",
-      "carrot",
-      "rice"
+      "herb"
     ]
   },
   {
@@ -211,18 +145,6 @@
     ]
   },
   {
-    "id": "bento-box",
-    "name": "도시락",
-    "description": "맛있는 도시락으로 활력 찬 하루를 보내세요!",
-    "grade": 2,
-    "image": "/food/bento-box.svg",
-    "ingredients": [
-      "rice",
-      "beans",
-      "herb"
-    ]
-  },
-  {
     "id": "rice-ball",
     "name": "삼각 김밥",
     "description": "세상에서 가장 쉬운 도시락, 삼각 김밥!",
@@ -232,17 +154,6 @@
       "rice",
       "herb",
       "carrot"
-    ]
-  },
-  {
-    "id": "oden",
-    "name": "오뎅",
-    "description": "추운 겨울날 뜨거운 국물에 넣고 먹으면 더욱 맛있는 오뎅!",
-    "grade": 0,
-    "image": "/food/oden.svg",
-    "ingredients": [
-      "rice",
-      "herb"
     ]
   },
   {
@@ -264,28 +175,6 @@
     "image": "/food/ice-cream.svg",
     "ingredients": [
       "ice"
-    ]
-  },
-  {
-    "id": "soft-ice-cream",
-    "name": "소프트 아이스크림",
-    "description": "부드러움과 시원함의 만남, 소프트 아이스크림",
-    "grade": 1,
-    "image": "/food/soft-ice-cream.svg",
-    "ingredients": [
-      "milk",
-      "ice"
-    ]
-  },
-  {
-    "id": "pie",
-    "name": "파이",
-    "description": "은은한 단맛과 풍부한 향을 즐겨보세요!",
-    "grade": 1,
-    "image": "/food/pie.svg",
-    "ingredients": [
-      "bread",
-      "herb"
     ]
   },
   {
@@ -312,38 +201,13 @@
     ]
   },
   {
-    "id": "lollipop",
-    "name": "롤리팝",
-    "description": "달콤한 맛으로 입안 가득 행복을 채워드립니다!",
-    "grade": 1,
-    "image": "/food/lollipop.svg",
-    "ingredients": [
-      "herb",
-      "rice"
-    ]
-  },
-  {
-    "id": "chocolate-bar",
-    "name": "초콜렛",
-    "description": "달콤함이 가득 찬 순간, 초콜릿과 함께",
-    "grade": 2,
-    "image": "/food/chocolate-bar.svg",
-    "ingredients": [
-      "beans",
-      "milk",
-      "herb"
-    ]
-  },
-  {
     "id": "doughnut",
     "name": "도넛",
     "description": "달콤하고 부드러운 맛, 기분을 좋게 해주는 도넛!",
-    "grade": 2,
+    "grade": 0,
     "image": "/food/doughnut.svg",
     "ingredients": [
-      "bread",
-      "milk",
-      "herb"
+      "bread"
     ]
   },
   {
@@ -357,18 +221,18 @@
     ]
   },
   {
-    "id": "hot-beverage",
-    "name": "뜨거운 음료",
+    "id": "coffee",
+    "name": "커피",
     "description": "따뜻함이 가득한 한 잔의 행복",
     "grade": 1,
     "image": "/food/hot-beverage.svg",
     "ingredients": [
       "beans",
-      "milk"
+      "water"
     ]
   },
   {
-    "id": "teacup-without-handle",
+    "id": "tea",
     "name": "차",
     "description": "차 한잔의 여유로 세상을 바라보세요.",
     "grade": 1,
@@ -376,30 +240,6 @@
     "ingredients": [
       "water",
       "herb"
-    ]
-  },
-  {
-    "id": "beverage-box",
-    "name": "음료 팩",
-    "description": "상큼함이 가득, 짜릿한 여름을 위한 음료 팩!",
-    "grade": 3,
-    "image": "/food/beverage-box.svg",
-    "ingredients": [
-      "beans",
-      "milk",
-      "herb",
-      "rice"
-    ]
-  },
-  {
-    "id": "cup-with-straw",
-    "name": "빨대와 컵",
-    "description": "시원함을 즐기는 간단한 행복",
-    "grade": 1,
-    "image": "/food/cup-with-straw.svg",
-    "ingredients": [
-      "water",
-      "ice"
     ]
   },
   {
@@ -411,17 +251,16 @@
     "ingredients": [
       "milk",
       "herb",
-      "beans"
+      "ice"
     ]
   },
   {
-    "id": "beer-mug",
-    "name": "맥주잔",
+    "id": "beer",
+    "name": "맥주",
     "description": "시원함을 한모금!",
-    "grade": 1,
+    "grade": 0,
     "image": "/food/beer-mug.svg",
     "ingredients": [
-      "herb",
       "water"
     ]
   }

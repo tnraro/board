@@ -33,13 +33,13 @@
     "id": "herb",
     "image": "/ingredient/herb.svg",
     "name": "허브",
-    "isSpecial": true
+    "isSpecial": false
   },
   {
     "id": "ice",
     "image": "/ingredient/ice.svg",
     "name": "얼음",
-    "isSpecial": false
+    "isSpecial": true
   },
   {
     "id": "water",
