@@ -1,7 +1,6 @@
 <script lang="ts">
   import Ingredient from "../ingredient/ingredient.svelte";
   import { orderCardData } from "./order-card.data";
-  import { selectedIngredient } from "../ingredient/ingredient-state.svelte";
   interface Props {
     id: string;
   }
