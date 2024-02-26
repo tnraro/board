@@ -1,3 +1,5 @@
 /annotations
 /converted
 /twemoji
+.env*
+node_modules
