@@ -6,6 +6,6 @@ export interface IOrderCard {
    */
   image: string;
   description: string;
-  requires: string[];
+  ingredients: string[];
   grade: number;
 }

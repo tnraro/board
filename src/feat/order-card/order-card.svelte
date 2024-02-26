@@ -20,10 +20,10 @@
   <div class="_image">
     <img src={info.image} alt="" draggable="false" />
   </div>
-  <p class="_requires-title">필요 재료</p>
-  <div class="_requires-items">
-    {#each info.requires as ingredientId}
-      <button class="_requires-item ingredient" data-id={ingredientId}>
+  <p class="_ingredients-title">필요 재료</p>
+  <div class="_ingredients-items">
+    {#each info.ingredients as ingredientId}
+      <button class="_ingredients-item ingredient" data-id={ingredientId}>
         <Ingredient id={ingredientId} />
       </button>
     {/each}
@@ -37,8 +37,8 @@
       "grade" min-content
       "name" min-content
       "image" minmax(0, 1fr)
-      "requires-title" min-content
-      "requires-items" min-content / 1fr;
+      "ingredients-title" min-content
+      "ingredients-items" min-content / 1fr;
     width: 12rem;
     aspect-ratio: 3/4;
     border-radius: 0.5rem;
@@ -79,22 +79,22 @@
       font-weight: bold;
       padding: 0.5rem;
     }
-    &requires-title {
-      grid-area: requires-title;
+    &ingredients-title {
+      grid-area: ingredients-title;
       text-align: center;
       background: var(---bg);
       padding-top: 0.5rem;
       border-radius: 0.5rem 0.5rem 0 0;
     }
-    &requires-items {
-      grid-area: requires-items;
+    &ingredients-items {
+      grid-area: ingredients-items;
       display: flex;
       background: var(---bg);
       justify-content: center;
       padding: 0.5rem 0;
       gap: 0.5rem;
     }
-    &requires-item {
+    &ingredients-item {
       all: unset;
     }
   }
