@@ -1,17 +1,18 @@
-import { chat } from "../lib/gemini";
+import { chat } from "../lib/ollama";
 
-const ingredients = new Set(["beans", "bread", "carrot", "rice", "milk", "herb", "ice", "water"]);
+const ingredients = new Set(["beans", "bread", "meat", "rice", "milk", "herb", "ice", "water"]);
+const ingredientsString = `[${[...ingredients].map(x => `"${x}"`).join(", ")}]`
 
 const system = `create json object.
 name field: it's my input
 description field: promotional pharse in korean
-ingredients field: pick one to three in this array for recipe. ["beans", "bread", "carrot", "rice", "milk", "herb", "ice", "water"] but you can't pick ice and water together. ingredients must be make sense don't use wrong ingredients. don't change to similar ingredient just pass it
+ingredients field: pick one to three in this array for recipe. ${ingredientsString} but you can't pick bread and rice together. ingredients must be make sense don't use wrong ingredients. don't change to similar ingredient just pass it
 just tell me json without Explanation`;
 
 const example = `{
   "name": "생일 케이크",
   "description": "달콤함이 퍼지는 행복, 생일 축하합니다!",
-  "ingredients": ["bread", "milk", "carrot"]
+  "ingredients": ["bread", "milk"]
 }`;
 
 const validGeneratedFoodInfo = async (food: string, content: string) => {
@@ -38,7 +39,7 @@ const validGeneratedFoodInfo = async (food: string, content: string) => {
 }
 
 export const generateFoodInfo = async (food: string) => {
-  const message = await chat("gemini-1.0-pro", [
+  const message = await chat("phi:2.7b-chat-v2-q4_K_M", [
     {
       "role": "system",
       "content": system,
