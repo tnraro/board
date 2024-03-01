@@ -1,4 +1,4 @@
-export interface ISignal<T> {
+export interface ISignal<T> extends Disposable {
   value: T;
   sub: (listener: (value: T) => void) => void;
   unsub: (listener: (value: T) => void) => void;
@@ -31,6 +31,9 @@ export const createSignal = <T>(defaultValue: T): ISignal<T> => {
       }
     });
   }
+  const dispose = () => {
+    listeners.clear();
+  }
   return {
     get value() {
       return value;
@@ -42,6 +45,7 @@ export const createSignal = <T>(defaultValue: T): ISignal<T> => {
     sub,
     unsub,
     update,
+    [Symbol.dispose]: dispose,
   }
 }
 
